@@ -1,0 +1,11 @@
+{"id":1000,"log_level":"DEBUG","log_time":"2022/06/18 - 19:04:25","msg":"我是debug日志","name":"码神之路"}
+{"log_level":"INFO","log_time":"2022/06/18 - 19:04:25","msg":"我是info日志"}
+{"log_level":"ERROR","log_time":"2022/06/18 - 19:04:25","msg":"我是error日志"}
+{"id":1000,"log_level":"DEBUG","log_time":"2022/06/18 - 19:04:26","msg":"我是debug日志","name":"码神之路"}
+{"log_level":"INFO","log_time":"2022/06/18 - 19:04:26","msg":"我是info日志"}
+{"log_level":"ERROR","log_time":"2022/06/18 - 19:04:26","msg":"我是error日志"}
+{"id":1000,"log_level":"DEBUG","log_time":"2022/06/18 - 19:04:39","msg":"我是debug日志","name":"码神之路"}
+{"log_level":"INFO","log_time":"2022/06/18 - 19:04:39","msg":"我是info日志"}
+{"log_level":"ERROR","log_time":"2022/06/18 - 19:04:39","msg":"我是error日志"}
+{"id":1000,"log_level":"DEBUG","log_time":"2022/06/18 - 19:04:39","msg":"我是debug日志","name":"码神之路"}
+{"log_level":"INFO","log_time":"2022/06/18 - 19:04:39","msg":"我是info日志"}

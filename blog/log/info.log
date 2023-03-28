@@ -1,0 +1,16 @@
+{"log_time":"2022/06/18 - 18:50:33","msg":"我是info日志"}
+{"log_level":1,"log_time":"2022/06/18 - 18:51:15","msg":"我是info日志"}
+{"log_level":"INFO","log_time":"2022/06/18 - 18:51:34","msg":"我是info日志"}
+{"log_level":"INFO","log_time":"2022/06/18 - 19:04:09","msg":"我是info日志"}
+{"log_level":"INFO","log_time":"2022/06/18 - 19:04:25","msg":"我是info日志"}
+{"log_level":"INFO","log_time":"2022/06/18 - 19:04:26","msg":"我是info日志"}
+{"log_level":"INFO","log_time":"2022/06/18 - 19:04:39","msg":"我是info日志"}
+{"log_level":"INFO","log_time":"2022/06/18 - 19:04:39","msg":"我是info日志"}
+{"log_level":"INFO","log_time":"2022/06/18 - 19:04:40","msg":"我是info日志"}
+{"log_level":"INFO","log_time":"2022/06/18 - 19:04:41","msg":"我是info日志"}
+{"log_level":"INFO","log_time":"2022/06/18 - 19:04:41","msg":"我是info日志"}
+{"log_level":"INFO","log_time":"2022/06/18 - 19:04:41","msg":"我是info日志"}
+{"log_level":"INFO","log_time":"2022/06/18 - 19:04:42","msg":"我是info日志"}
+{"log_level":"INFO","log_time":"2022/06/20 - 11:26:48","msg":"我是info日志"}
+[33m [msgo] [0m [34m2022/06/20 - 12:22:26[0m | level= [32m INFO [0m
+ msg:  a error [0m  

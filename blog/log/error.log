@@ -1,0 +1,82 @@
+{"log_time":"2022/06/18 - 18:50:33","msg":"我是error日志"}
+{"log_level":2,"log_time":"2022/06/18 - 18:51:15","msg":"我是error日志"}
+{"log_level":"ERROR","log_time":"2022/06/18 - 18:51:34","msg":"我是error日志"}
+{"log_level":"ERROR","log_time":"2022/06/18 - 19:04:09","msg":"我是error日志"}
+{"log_level":"ERROR","log_time":"2022/06/18 - 19:04:25","msg":"我是error日志"}
+{"log_level":"ERROR","log_time":"2022/06/18 - 19:04:26","msg":"我是error日志"}
+{"log_level":"ERROR","log_time":"2022/06/18 - 19:04:39","msg":"我是error日志"}
+{"log_level":"ERROR","log_time":"2022/06/18 - 19:04:39","msg":"我是error日志"}
+{"log_level":"ERROR","log_time":"2022/06/18 - 19:04:40","msg":"我是error日志"}
+{"log_level":"ERROR","log_time":"2022/06/18 - 19:04:41","msg":"我是error日志"}
+{"log_level":"ERROR","log_time":"2022/06/18 - 19:04:41","msg":"我是error日志"}
+{"log_level":"ERROR","log_time":"2022/06/18 - 19:04:41","msg":"我是error日志"}
+{"log_level":"ERROR","log_time":"2022/06/18 - 19:04:42","msg":"我是error日志"}
+{"log_level":"ERROR","log_time":"2022/06/20 - 11:26:48","msg":"我是error日志"}
+{"log_level":"ERROR","log_time":"2022/06/20 - 11:27:21","msg":"invalid memory address or nil pointer dereference"}
+[33m [msgo] [0m [34m2022/06/20 - 11:27:49[0m | level= [31m ERROR [0m | msg=[31m "invalid memory address or nil pointer dereference" [0m  
+[33m [msgo] [0m [34m2022/06/20 - 11:29:48[0m | level= [31m ERROR [0m[31m
+ Error Cause By:  "invalid memory address or nil pointer dereference" [0m  
+[33m [msgo] [0m [34m2022/06/20 - 11:32:04[0m | level= [31m ERROR [0m[31m
+ Error Cause By:  "invalid memory address or nil pointer dereference" [0m  
+[33m [msgo] [0m [34m2022/06/20 - 11:35:29[0m | level= [31m ERROR [0m[31m
+ Error Cause By:  "invalid memory address or nil pointer dereference" [0m  
+[33m [msgo] [0m [34m2022/06/20 - 11:44:25[0m | level= [31m ERROR [0m[31m
+ Error Cause By:  "runtime error: invalid memory address or nil pointer dereference\n\n\tD:/go/go1.18.1/src/runtime/panic.go:849\n\tD:/go/go1.18.1/src/runtime/panic.go:220\n\tD:/go/go1.18.1/src/runtime/signal_windows.go:257\n\tD:/go/project/web/blog/main.go:182\n\tD:/go/project/web/msgo/log.go:112\n\tD:/go/project/web/msgo/recovery.go:31\n\tD:/go/project/web/blog/main.go:43\n\tD:/go/project/web/msgo/ms.go:47\n\tD:/go/project/web/msgo/ms.go:186\n\tD:/go/project/web/msgo/ms.go:167\n\tD:/go/go1.18.1/src/net/http/server.go:2463\n\tD:/go/go1.18.1/src/net/http/server.go:2917\n\tD:/go/go1.18.1/src/net/http/server.go:1967\n\tD:/go/go1.18.1/src/runtime/asm_amd64.s:1572" [0m  
+[33m [msgo] [0m [34m2022/06/20 - 11:45:20[0m | level= [31m ERROR [0m[31m
+ Error Cause By:  runtime error: invalid memory address or nil pointer dereference
+
+	D:/go/go1.18.1/src/runtime/panic.go:849
+	D:/go/go1.18.1/src/runtime/panic.go:220
+	D:/go/go1.18.1/src/runtime/signal_windows.go:257
+	D:/go/project/web/blog/main.go:182
+	D:/go/project/web/msgo/log.go:112
+	D:/go/project/web/msgo/recovery.go:31
+	D:/go/project/web/blog/main.go:43
+	D:/go/project/web/msgo/ms.go:47
+	D:/go/project/web/msgo/ms.go:186
+	D:/go/project/web/msgo/ms.go:167
+	D:/go/go1.18.1/src/net/http/server.go:2463
+	D:/go/go1.18.1/src/net/http/server.go:2917
+	D:/go/go1.18.1/src/net/http/server.go:1967
+	D:/go/go1.18.1/src/runtime/asm_amd64.s:1572 [0m  
+[33m [msgo] [0m [34m2022/06/20 - 11:45:57[0m | level= [31m ERROR [0m[31m
+ Error Cause By:  runtime error: invalid memory address or nil pointer dereference
+
+	D:/go/go1.18.1/src/runtime/extern.go:235
+	D:/go/project/web/msgo/recovery.go:12
+	D:/go/project/web/msgo/recovery.go:26
+	D:/go/go1.18.1/src/runtime/panic.go:849
+	D:/go/go1.18.1/src/runtime/panic.go:220
+	D:/go/go1.18.1/src/runtime/signal_windows.go:257
+	D:/go/project/web/blog/main.go:182
+	D:/go/project/web/msgo/log.go:112
+	D:/go/project/web/msgo/recovery.go:31
+	D:/go/project/web/blog/main.go:43
+	D:/go/project/web/msgo/ms.go:47
+	D:/go/project/web/msgo/ms.go:186
+	D:/go/project/web/msgo/ms.go:167
+	D:/go/go1.18.1/src/net/http/server.go:2463
+	D:/go/go1.18.1/src/net/http/server.go:2917
+	D:/go/go1.18.1/src/net/http/server.go:1967
+	D:/go/go1.18.1/src/runtime/asm_amd64.s:1572 [0m  
+[33m [msgo] [0m [34m2022/06/20 - 12:20:39[0m | level= [31m ERROR [0m[31m
+ Error Cause By:  a error
+
+	D:/go/go1.18.1/src/runtime/extern.go:235
+	D:/go/project/web/msgo/recovery.go:14
+	D:/go/project/web/msgo/recovery.go:36
+	D:/go/go1.18.1/src/runtime/panic.go:849
+	D:/go/project/web/msgo/mserror/errors.go:22
+	D:/go/project/web/msgo/mserror/errors.go:17
+	D:/go/project/web/blog/main.go:208
+	D:/go/project/web/blog/main.go:197
+	D:/go/project/web/msgo/log.go:112
+	D:/go/project/web/msgo/recovery.go:41
+	D:/go/project/web/blog/main.go:45
+	D:/go/project/web/msgo/ms.go:47
+	D:/go/project/web/msgo/ms.go:186
+	D:/go/project/web/msgo/ms.go:167
+	D:/go/go1.18.1/src/net/http/server.go:2463
+	D:/go/go1.18.1/src/net/http/server.go:2917
+	D:/go/go1.18.1/src/net/http/server.go:1967
+	D:/go/go1.18.1/src/runtime/asm_amd64.s:1572 [0m  

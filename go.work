@@ -1,0 +1,11 @@
+go 1.18
+
+use (
+	./blog
+	./goodscenter
+	./goodscenter_tow
+	./mall
+	./mall-gateway
+	./msgo
+	./ordercenter
+)

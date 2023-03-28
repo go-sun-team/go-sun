@@ -1,0 +1,42 @@
+[33m [msgo] [0m [34m2022/06/20 - 12:21:13[0m | level= [31m ERROR [0m[31m
+ Error Cause By:  a error
+
+	D:/go/go1.18.1/src/runtime/extern.go:235
+	D:/go/project/web/msgo/recovery.go:14
+	D:/go/project/web/msgo/recovery.go:36
+	D:/go/go1.18.1/src/runtime/panic.go:849
+	D:/go/project/web/msgo/mserror/errors.go:22
+	D:/go/project/web/msgo/mserror/errors.go:17
+	D:/go/project/web/blog/main.go:208
+	D:/go/project/web/blog/main.go:197
+	D:/go/project/web/msgo/log.go:112
+	D:/go/project/web/msgo/recovery.go:41
+	D:/go/project/web/blog/main.go:45
+	D:/go/project/web/msgo/ms.go:47
+	D:/go/project/web/msgo/ms.go:186
+	D:/go/project/web/msgo/ms.go:167
+	D:/go/go1.18.1/src/net/http/server.go:2463
+	D:/go/go1.18.1/src/net/http/server.go:2917
+	D:/go/go1.18.1/src/net/http/server.go:1967
+	D:/go/go1.18.1/src/runtime/asm_amd64.s:1572 [0m  
+[33m [msgo] [0m [34m2022/06/20 - 12:22:03[0m | level= [31m ERROR [0m[31m
+ Error Cause By:  a error
+
+	D:/go/go1.18.1/src/runtime/extern.go:235
+	D:/go/project/web/msgo/recovery.go:14
+	D:/go/project/web/msgo/recovery.go:36
+	D:/go/go1.18.1/src/runtime/panic.go:849
+	D:/go/project/web/msgo/mserror/errors.go:22
+	D:/go/project/web/msgo/mserror/errors.go:17
+	D:/go/project/web/blog/main.go:208
+	D:/go/project/web/blog/main.go:197
+	D:/go/project/web/msgo/log.go:112
+	D:/go/project/web/msgo/recovery.go:41
+	D:/go/project/web/blog/main.go:45
+	D:/go/project/web/msgo/ms.go:47
+	D:/go/project/web/msgo/ms.go:186
+	D:/go/project/web/msgo/ms.go:167
+	D:/go/go1.18.1/src/net/http/server.go:2463
+	D:/go/go1.18.1/src/net/http/server.go:2917
+	D:/go/go1.18.1/src/net/http/server.go:1967
+	D:/go/go1.18.1/src/runtime/asm_amd64.s:1572 [0m  
