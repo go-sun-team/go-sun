@@ -73,75 +73,22 @@ func main() {
 	//})
 	g.Get("/hello/get", func(ctx *msgo.Context) {
 		fmt.Println("handler")
-		fmt.Fprintf(ctx.W, "%s hello/*/get 欢迎来到码神之路goweb教程", "mszlu.com")
+		fmt.Fprintf(ctx.W, "%s hello/*/get ", "com")
 	}, Log)
 	g.Post("/info", func(ctx *msgo.Context) {
-		fmt.Fprintf(ctx.W, "%s info", "mszlu.com")
+		fmt.Fprintf(ctx.W, "%s info", "com")
 	})
 	g.Any("/any", func(ctx *msgo.Context) {
-		fmt.Fprintf(ctx.W, "%s any", "mszlu.com")
+		fmt.Fprintf(ctx.W, "%s any", "com")
 	})
 	g.Get("/get/:id", func(ctx *msgo.Context) {
-		fmt.Fprintf(ctx.W, "%s get user info path variable", "mszlu.com")
+		fmt.Fprintf(ctx.W, "%s get user info path variable", "com")
 	})
 	//order := engine.Group("order")
 	//order.Add("/get", func(w http.ResponseWriter, r *http.Request) {
 	//	fmt.Fprintf(w, "%s 查询订单", "mszlu.com")
 	//})
 
-	g.Get("/html", func(ctx *msgo.Context) {
-		ctx.HTML(http.StatusOK, "<h1>码神之路</h1>")
-	})
-	g.Get("/htmlTemplate", func(ctx *msgo.Context) {
-		user := &User{
-			Name: "码神之路",
-		}
-		err := ctx.HTMLTemplate("login.html", user, "tpl/login.html", "tpl/header.html")
-		if err != nil {
-			log.Println(err)
-		}
-	})
-	g.Get("/htmlTemplateGlob", func(ctx *msgo.Context) {
-		user := &User{
-			Name: "码神之路",
-		}
-		err := ctx.HTMLTemplateGlob("login.html", user, "tpl/*.html")
-		if err != nil {
-			log.Println(err)
-		}
-	})
-	engine.LoadTemplate("tpl/*.html")
-
-	g.Get("/template", func(ctx *msgo.Context) {
-		user := &User{
-			Name: "码神之路",
-		}
-		err := ctx.Template("login.html", user)
-		if err != nil {
-			log.Println(err)
-		}
-	})
-
-	g.Get("/json", func(ctx *msgo.Context) {
-		user := &User{
-			Name: "码神之路",
-		}
-		err := ctx.JSON(http.StatusOK, user)
-		if err != nil {
-			log.Println(err)
-		}
-	})
-
-	g.Get("/xml", func(ctx *msgo.Context) {
-		user := &User{
-			Name: "码神之路",
-			Age:  10,
-		}
-		err := ctx.XML(http.StatusOK, user)
-		if err != nil {
-			log.Println(err)
-		}
-	})
 	g.Get("/excel", func(ctx *msgo.Context) {
 		ctx.File("tpl/test.xlsx")
 	})
@@ -155,7 +102,7 @@ func main() {
 		ctx.Redirect(http.StatusFound, "/user/template")
 	})
 	g.Get("/string", func(ctx *msgo.Context) {
-		ctx.String(http.StatusFound, "和 %s %s学习 goweb框架", "码神之路", "从零")
+		ctx.String(http.StatusFound, "和 %s %s学习 ", "", "")
 	})
 
 	g.Get("/add", func(ctx *msgo.Context) {
